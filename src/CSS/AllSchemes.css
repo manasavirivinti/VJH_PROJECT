@@ -1,0 +1,61 @@
+.card
+{
+    border-radius: 45px;
+    width: 25vw;
+    padding: 20px;
+    background-color:#eefff7;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.cardHeader
+{
+    margin-top: 5px;
+    color: rgb(34, 33, 33);
+}
+
+.cardTop
+{
+    margin-top: 10px;
+    color: #527a7a;
+   
+}
+.textToSpeech
+{
+    all: unset;
+    width: 3vw;
+    height: 1.5vw;
+    border:45px;
+    border-radius:45px;
+    display: flex;
+    text-align: center;
+}
+.stopButton
+{
+    background-color: aquamarine;
+    color:rgb(23, 35, 35);
+    border:45px;
+    border-radius:45px;
+    font-weight: bold;
+}
+.stopButton1
+{
+    background-color: aquamarine;
+    color:rgb(23, 35, 35);
+    border:45px;
+    border-radius:45px;
+    font-weight: bold;
+    margin-left:10px;
+}
+.displayCards
+{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 50px;
+    display: flex;
+    justify-content: space-around;
+}

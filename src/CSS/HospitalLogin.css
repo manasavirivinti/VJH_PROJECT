@@ -1,0 +1,85 @@
+.hospitalLogin {
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F7F4EC;
+    padding: 20px;
+    border: 1px solid #777777;
+}
+
+/* body {
+    background-color: #F7F4EC;
+} */
+
+
+
+
+.hospitalLogin img {
+    width: 600px;
+    height: 500px;
+}
+
+.login-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+
+}
+
+
+.login-content input {
+   
+    all: unset;
+    width: 300px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+}
+
+.login-content h1
+{
+    color: #8c908e;
+}
+.login-content button 
+{
+    all: unset;
+    width: 300px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.863);
+    text-align: center;
+    background-color: rgb(5,151,142);
+    transition: 0.2s ease-in;
+}
+
+
+.login-content button:hover
+{
+    transition: 0.2s ease-out;
+    scale: 1.01;
+}
+
+.login-content div
+{
+    margin-top: 3px;
+    text-align: start;
+    color: #9da5a2;
+    font-size: smaller;
+    
+}
+
+.register
+{
+    all: unset;
+
+    color: #777777;
+    cursor: pointer;
+}

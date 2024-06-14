@@ -1,0 +1,66 @@
+.navbar
+{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+   
+}
+
+.navbar img
+{
+    height: 5vh;
+}
+
+
+.navbar-link
+{
+    all: unset;
+    cursor: pointer;
+    color: #09a9e8;
+    padding: 10px;
+    font-weight: bold;
+}
+   
+.navbar-items
+{
+    position: relative;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-items a.active
+{
+    color: #06455f;
+
+}
+
+.navbar-link a
+{
+    position: relative;
+}
+
+.navbar-link a:after
+{
+    content: "";
+    position: absolute;
+    
+    left: 0;
+    bottom: -8px;
+     width: 0;
+    height: 2px;
+    margin-bottom: 0;
+    background-color: #777777;
+    transition: 0.3s;
+}
+
+.navbar-link a:hover:after
+{
+    width: 100%;
+}
+

@@ -1,0 +1,59 @@
+.homeLocation
+{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: #ecf8f5;
+}
+
+.homeLocationHeader
+{
+    width: 90vw;
+    height: 90vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeLocationHeader img
+{
+ 
+    width:45vw;
+    height: 90vh;
+
+}
+
+.homeLocationMain 
+{
+
+    width: 35vw;
+   
+
+}
+
+.locHeader
+{
+
+    font-size: 50px;
+    color: #777777;
+}
+
+.homeLocationButton
+{
+    all: unset;
+    margin-top: 10px;
+    background-color: rgb(5,151,142);
+    color: white;
+    padding: 15px;
+}
+
+.locationText
+{
+
+    margin-top: 20px;
+    color: #777777;
+
+}

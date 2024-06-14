@@ -1,0 +1,57 @@
+.HomeSchemes
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #dff1f1;
+}
+
+
+
+
+.HomeSchemesMain
+{
+        display: flex;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        width: 90vw;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.HomeSchemesMain img
+{
+    width: 55vw;
+}
+.HomeSchemesContent
+{
+    width: 45vw;
+    padding: 5vw;
+    
+}
+
+.HomeSchemeButton
+{
+        all: unset;
+        margin-top: 10px;
+        color: white;
+        padding: 15px;
+        cursor: pointer;
+        background-color: rgb(5,151,142);
+
+}
+
+.HomeSchemesHeading
+{
+    font-size: 50px;
+    font-weight: 500;
+    color: #636363;
+}
+
+.HomeSchemesMatter
+{
+    color: #777777;
+}
